@@ -204,7 +204,7 @@ class _TodoScreenState extends State<TodoScreen> {
 
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.red[900],
+                            backgroundColor: Colors.red[700],
                           ),
 
                           onPressed: () {
@@ -226,6 +226,20 @@ class _TodoScreenState extends State<TodoScreen> {
             ),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: _deleteAll,
+        label: Text(
+          'Remove All',
+          style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold),
+        ),
+        icon: Icon(
+          Icons.delete_forever_rounded,
+          color: Colors.white,
+        ),
+        backgroundColor: Colors.red[700],
       ),
     );
   }
