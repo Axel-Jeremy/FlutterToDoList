@@ -1,17 +1,22 @@
-# first_flutter_project
+# Simple To-Do List App
 
-coba flutter sederhana
+Aplikasi To-Do List sederhana yang dibangun menggunakan framework **Flutter**. Proyek ini dibuat sebagai fondasi awal dan prasyarat pengerjaan tugas akhir, sebagai bentuk eksplorasi dan pemahaman dasar di Flutter.
 
-## Getting Started
+## Fitur Utama
 
-This project is a starting point for a Flutter application.
+Aplikasi ini dilengkapi dengan fungsionalitas manajemen tugas esensial, antara lain:
 
-A few resources to get you started if this is your first Flutter project:
+*   **Input Task:** Menambahkan daftar tugas (to-do) baru ke dalam daftar.
+*   **Task Priority:** Mengelompokkan tugas berdasarkan skala prioritas menggunakan indikator warna:
+    *   🔴 **High** (Prioritas Tinggi)
+    *   🟠 **Medium** (Prioritas Sedang)
+    *   🟢 **Low** (Prioritas Rendah)
+*   **Delete Task:** Menghapus satu per satu tugas secara spesifik jika sudah selesai atau tidak lagi diperlukan.
+*   **Delete All:** Menghapus seluruh daftar tugas sekaligus (*clear all*) dengan cepat dalam satu kali tindakan.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Referensi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   https://docs.flutter.dev/install/manual
+*   https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ
+*   https://docs.flutter.dev/learn/pathway
+*   https://api.flutter.dev/flutter/widgets/
